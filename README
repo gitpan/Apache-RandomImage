@@ -1,0 +1,38 @@
+Apache::RandomImage version 0.01
+===============================
+
+Apache::RandomImage will randomly select an image from the dirname of the requested location.
+You need to specify a white-space separated list of B<Suffixes> with I<PerlSetVar>,
+otherwise the request will be declined.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+Activate Apache::RandomImage in your Apache configuration
+
+<LocationMatch "^/(.+)/images/random-image">
+    SetHandler perl-script
+    PerlSetVar Suffixes "gif png jpg"
+    PerlHandler Apache::RandomImage
+</LocationMatch>
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Apache
+  mod_perl
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 Michael Kröll
+
+This package is free software and is provided "as is" without express
+or implied warranty. It may be used, redistributed and/or modified
+under the same terms as Perl itself.
