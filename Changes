@@ -1,6 +1,10 @@
 Revision history for Perl extension Apache::RandomImage.
 
-0.01  Mon Nov  3 15:29:49 2003
-	- original version; created by h2xs 1.21 with options
-		-AX -n Apache::RandomImage
+0.2   2008-10-25
+    - mod_perl2 support
+    - Module house-keeping
+
+0.01  2003-11-03
+    - Initial release
+
 
