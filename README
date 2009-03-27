@@ -3,7 +3,7 @@ NAME
     a directory.
 
 VERSION
-    Version 0.2
+    Version 0.3
 
 SYNOPSIS
       Configure this module as a response handler to activate this module. The following
@@ -30,22 +30,32 @@ DESCRIPTION
 
 FUNCTIONS
   handler
-
     Apache response handler
+
+Imported constants
+  OK
+    See Apache::Constants or Apache2::Const documentation
+
+  DECLINED
+    See Apache::Constants or Apache2::Const documentation
+
+  NOT_FOUND
+    See Apache::Constants or Apache2::Const documentation
 
 SEE ALSO
     mod_perl
     Apache::RandomLocation
+
 AUTHOR
-    Michael Kroell, `<pepl at cpan.org>'
+    Michael Kroell, "<pepl at cpan.org>"
 
 BUGS
     Please report any bugs or feature requests to
-    `bug-locale-maketext-extract-plugin-xsl at rt.cpan.org', or through the
+    "bug-locale-maketext-extract-plugin-xsl at rt.cpan.org", or through the
     web interface at
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Locale-Maketext-Extract-P
-    lugin-XSL. I will be notified, and then you'll automatically be notified
-    of progress on your bug as I make changes.
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Locale-Maketext-Extract-
+    Plugin-XSL>. I will be notified, and then you'll automatically be
+    notified of progress on your bug as I make changes.
 
 SUPPORT
     You can find documentation for this module with the perldoc command.
@@ -54,23 +64,27 @@ SUPPORT
 
     You can also look for information at:
 
-    * RT: CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Apache-RandomImage
+    *   RT: CPAN's request tracker
 
-    * AnnoCPAN: Annotated CPAN documentation
-        http://annocpan.org/dist/Apache-RandomImage
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Apache-RandomImage>
 
-    * CPAN Ratings
-        http://cpanratings.perl.org/d/Apache-RandomImage
+    *   AnnoCPAN: Annotated CPAN documentation
 
-    * Search CPAN
-        http://search.cpan.org/dist/Apache-RandomImage
+        <http://annocpan.org/dist/Apache-RandomImage>
+
+    *   CPAN Ratings
+
+        <http://cpanratings.perl.org/d/Apache-RandomImage>
+
+    *   Search CPAN
+
+        <http://search.cpan.org/dist/Apache-RandomImage>
 
 ACKNOWLEDGEMENTS
     Apache::RandomImage was inspired by Apache::RandomLocation
 
 COPYRIGHT
-    Copyright 2003-2008 Michael Kroell, all rights reserved.
+    Copyright 2003-2009 Michael Kroell, all rights reserved.
 
 LICENSE
     This program is free software; you can redistribute it and/or modify it

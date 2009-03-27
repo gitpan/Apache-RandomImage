@@ -31,14 +31,14 @@ Apache::RandomImage - Lightweight module to randomly display images from a direc
 
 =head1 VERSION
 
-Version 0.2
+Version 0.3
 
 =cut
 
 # http://module-build.sourceforge.net/META-spec-current.html
-# Does not like v0.2 versions :-/
-#use version; our $VERSION = qv('0.2');
-our $VERSION = '0.2';
+# Does not like v0.3 versions :-/
+#use version; our $VERSION = qv('0.3');
+our $VERSION = '0.3';
 
 =head1 SYNOPSIS
 
@@ -102,6 +102,20 @@ sub handler {
     return OK;
 }
 
+=head1 Imported constants
+
+=head2 OK
+
+See Apache::Constants or Apache2::Const documentation
+
+=head2 DECLINED
+
+See Apache::Constants or Apache2::Const documentation
+
+=head2 NOT_FOUND
+
+See Apache::Constants or Apache2::Const documentation
+
 =head1 SEE ALSO
 
 =over 4
@@ -159,7 +173,7 @@ Apache::RandomImage was inspired by L<Apache::RandomLocation>
 
 =head1 COPYRIGHT
 
-Copyright 2003-2008 Michael Kroell, all rights reserved.
+Copyright 2003-2009 Michael Kroell, all rights reserved.
 
 =head1 LICENSE
 

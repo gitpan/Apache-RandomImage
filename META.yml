@@ -1,6 +1,6 @@
 ---
 name: Apache-RandomImage
-version: 0.2
+version: 0.3
 author:
   - 'Michael Kroell <pepl@cpan.org>'
 abstract: Lightweight module to randomly display images from a directory.
@@ -14,8 +14,8 @@ build_requires:
 provides:
   Apache::RandomImage:
     file: lib/Apache/RandomImage.pm
-    version: 0.2
-generated_by: Module::Build version 0.3
+    version: 0.3
+generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
